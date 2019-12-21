@@ -1,0 +1,65 @@
+.user{
+    padding: 10px 15px;
+    color: #333;
+    .user-card{
+        box-sizing: border-box;
+        padding: 15px;
+        font-size: 30px;
+        background-color: #FFF;
+        border-radius: 8px;
+        box-shadow: #ccc 8px 8px 8px;
+    }
+    .user-card2{
+        margin-top: 15px;
+    }
+    .card1{
+        display: flex;
+        height: 120px;
+        border-bottom: 1px solid #eee;
+        .user-icon{
+            margin-right: 20px;
+        }
+        .user-name, .user-id{
+            height: 60px;
+            line-height: 60px;
+        }
+        .user-id{
+            margin-top: -20px;
+        }
+        .change-info{
+            display: inline-flex;
+            justify-content: flex-end;
+        }
+        .user-too-bar{
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+    .card2{
+        border-bottom: unset;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 50px;
+    }
+    .more-warp{
+        position: relative;
+        display: flex;
+        padding: 20px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .right{
+        position: absolute;
+        right: 30px;
+    }
+    .more-text{
+        margin-left: 30px;
+    }
+    .no-border{
+        border: unset;
+    }
+    .user-infos{
+        margin-left: 20px;
+    }
+    
+}

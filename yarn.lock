@@ -166,23 +166,23 @@
   dependencies:
     uglify-js "^3.3.24"
 
-"@tarojs/redux-h5@1.3.26":
-  version "1.3.26"
-  resolved "https://registry.npm.taobao.org/@tarojs/redux-h5/download/@tarojs/redux-h5-1.3.26.tgz#9d7a85ca3c5e250abb661c52653cbfe73281e73f"
-  integrity sha1-nXqFyjxeJQq7ZhxSZTy/5zKB5z8=
+"@tarojs/redux-h5@^1.3.26":
+  version "1.3.31"
+  resolved "https://registry.npm.taobao.org/@tarojs/redux-h5/download/@tarojs/redux-h5-1.3.31.tgz#7e9003c8e7a2bf048792fe03f110287e5670f35f"
+  integrity sha1-fpADyOeivwSHkv4D8RAoflZw818=
   dependencies:
     hoist-non-react-statics "^2.5.0"
     invariant "^2.2.4"
     loose-envify "^1.1.0"
     prop-types "^15.6.1"
 
-"@tarojs/redux@1.3.26":
-  version "1.3.26"
-  resolved "https://registry.npm.taobao.org/@tarojs/redux/download/@tarojs/redux-1.3.26.tgz#5596c0978650b5ca8f79c2ef402f9f275b02d651"
-  integrity sha1-VZbAl4ZQtcqPecLvQC+fJ1sC1lE=
+"@tarojs/redux@^1.3.26":
+  version "1.3.31"
+  resolved "https://registry.npm.taobao.org/@tarojs/redux/download/@tarojs/redux-1.3.31.tgz#986e9e88d5bf2e6024469f558fa6b0cff334e331"
+  integrity sha1-mG6eiNW/LmAkRp9Vj6awz/M04zE=
   dependencies:
-    "@tarojs/taro" "1.3.26"
-    "@tarojs/utils" "1.3.26"
+    "@tarojs/taro" "1.3.31"
+    "@tarojs/utils" "1.3.31"
 
 "@tarojs/router@1.3.26":
   version "1.3.26"
@@ -254,10 +254,34 @@
   dependencies:
     "@tarojs/utils" "1.3.26"
 
+"@tarojs/taro@1.3.31":
+  version "1.3.31"
+  resolved "https://registry.npm.taobao.org/@tarojs/taro/download/@tarojs/taro-1.3.31.tgz#7b05dd54e71a2ce773452905f8417f99e89d0ba2"
+  integrity sha1-ewXdVOcaLOdzRSkF+EF/meidC6I=
+  dependencies:
+    "@tarojs/utils" "1.3.31"
+
+"@tarojs/taro@^2.0.0-beta.10":
+  version "2.0.0-beta.10"
+  resolved "https://registry.npm.taobao.org/@tarojs/taro/download/@tarojs/taro-2.0.0-beta.10.tgz#6decd9a3210ee68f4722d5c86cfcea8a28848742"
+  integrity sha1-bezZoyEO5o9HItXIbPzqiiiEh0I=
+  dependencies:
+    "@tarojs/utils" "2.0.0-beta.10"
+
 "@tarojs/utils@1.3.26":
   version "1.3.26"
   resolved "https://registry.npm.taobao.org/@tarojs/utils/download/@tarojs/utils-1.3.26.tgz#893fc3bacd2764293b16e02aa5563c478b5c42b0"
   integrity sha1-iT/Dus0nZCk7FuAqpVY8R4tcQrA=
+
+"@tarojs/utils@1.3.31":
+  version "1.3.31"
+  resolved "https://registry.npm.taobao.org/@tarojs/utils/download/@tarojs/utils-1.3.31.tgz#c0a83b2992dc8184e7ebb2e664073804b244d3c3"
+  integrity sha1-wKg7KZLcgYTn67LmZAc4BLJE08M=
+
+"@tarojs/utils@2.0.0-beta.10":
+  version "2.0.0-beta.10"
+  resolved "https://registry.npm.taobao.org/@tarojs/utils/download/@tarojs/utils-2.0.0-beta.10.tgz#e7e3854d73ac3aad63c14ab636a553be0357e482"
+  integrity sha1-5+OFTXOsOq1jwUq2NqVTvgNX5II=
 
 "@tarojs/webpack-runner@1.3.26":
   version "1.3.26"
@@ -344,6 +368,14 @@
   version "16.9.13"
   resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.13.tgz#b3ea5dd443f4a680599e2abba8cc66f5e1ce0059"
   integrity sha1-s+pd1EP0poBZniq7qMxm9eHOAFk=
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/react@^16.7.3":
+  version "16.9.17"
+  resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.17.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Freact%2Fdownload%2F%40types%2Freact-16.9.17.tgz#58f0cc0e9ec2425d1441dd7b623421a867aa253e"
+  integrity sha1-WPDMDp7CQl0UQd17YjQhqGeqJT4=
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -1567,6 +1599,11 @@ binary-extensions@^2.0.0:
   resolved "https://registry.npm.taobao.org/binary-extensions/download/binary-extensions-2.0.0.tgz#23c0df14f6a88077f5f986c0d167ec03c3d5537c"
   integrity sha1-I8DfFPaogHf1+YbA0WfsA8PVU3w=
 
+bind-decorator@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.npm.taobao.org/bind-decorator/download/bind-decorator-1.0.11.tgz#e41bc06a1f65dd9cec476c91c5daf3978488252f"
+  integrity sha1-5BvAah9l3ZzsR2yRxdrzl4SIJS8=
+
 block-stream@*:
   version "0.0.9"
   resolved "https://registry.npm.taobao.org/block-stream/download/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
@@ -2031,7 +2068,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.npm.taobao.org/classnames/download/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha1-Q5Nb/90pHzJtrQogUwmzjQD2UM4=
@@ -2516,6 +2553,11 @@ dashdash@^1.12.0:
   integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
   dependencies:
     assert-plus "^1.0.0"
+
+dayjs@^1.7.7:
+  version "1.8.18"
+  resolved "https://registry.npm.taobao.org/dayjs/download/dayjs-1.8.18.tgz#c9b3fcd5a8eca96ed20a907f4491516d6eda15c9"
+  integrity sha1-ybP81ajsqW7SCpB/RJFRbW7aFck=
 
 debug@*, debug@^4.0.1, debug@^4.1.0:
   version "4.1.1"
@@ -6663,7 +6705,7 @@ promise@^8.0.1:
   dependencies:
     asap "~2.0.6"
 
-prop-types@^15.6.1, prop-types@^15.7.2:
+prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -6960,7 +7002,7 @@ redux-thunk@^2.3.0:
   resolved "https://registry.npm.taobao.org/redux-thunk/download/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
   integrity sha1-UcLBmhhe1Rh6qpotCLZm0NZGdiI=
 
-redux@^4.0.0:
+redux@^4.0.4:
   version "4.0.4"
   resolved "https://registry.npm.taobao.org/redux/download/redux-4.0.4.tgz#4ee1aeb164b63d6a1bcc57ae4aa0b6e6fa7a3796"
   integrity sha1-TuGusWS2PWobzFeuSqC25vp6N5Y=
@@ -8174,6 +8216,18 @@ tar@^4:
     mkdirp "^0.5.0"
     safe-buffer "^5.1.2"
     yallist "^3.0.3"
+
+taro-ui@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.npm.taobao.org/taro-ui/download/taro-ui-2.2.4.tgz#96a486432e86d6d0d1eda70383c47c3284f5e8e6"
+  integrity sha1-lqSGQy6G1tDR7acDg8R8MoT16OY=
+  dependencies:
+    "@types/react" "^16.7.3"
+    bind-decorator "^1.0.11"
+    classnames "^2.2.6"
+    dayjs "^1.7.7"
+    lodash "^4.17.10"
+    prop-types "^15.6.2"
 
 terser-webpack-plugin@^1.1.0:
   version "1.4.1"

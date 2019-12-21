@@ -54,7 +54,7 @@ const config = {
         url: {
           enable: true,
           config: {
-            limit: 10240 // 设定转换尺寸上限
+            limit: 10240  // 设定转换尺寸上限
           }
         },
         cssModules: {
@@ -65,7 +65,8 @@ const config = {
           }
         }
       }
-    }
+    },
+    esnextModules: ['taro-ui']
   },
   h5: {
     publicPath: '/',
@@ -90,7 +91,8 @@ const config = {
           }
         }
       }
-    }
+    },
+    esnextModules: ['taro-ui']
   }
 }
 

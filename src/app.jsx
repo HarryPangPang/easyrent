@@ -2,10 +2,12 @@ import '@tarojs/async-await'
 import Taro, { Component } from '@tarojs/taro'
 import { Provider } from '@tarojs/redux'
 
-import Index from './pages/index'
+// import Index from './pages/index/index'
+// import User from './pages/user/index'
+// import Publish from './pages/publish/index'
+// import Home from './pages/home/index'
 
 import configStore from './store'
-
 import './app.scss'
 
 // 如果需要在 h5 环境中开启 React Devtools
@@ -20,13 +22,13 @@ class App extends Component {
 
   config = {
     pages: [
-      'pages/index/index'
+      'pages/layout/index'
     ],
     window: {
       backgroundTextStyle: 'light',
-      navigationBarBackgroundColor: '#fff',
-      navigationBarTitleText: 'WeChat',
-      navigationBarTextStyle: 'black'
+      navigationBarBackgroundColor: '#66CCFF',
+      navigationBarTitleText: 'EastRent',
+      navigationBarTextStyle: 'white',
     }
   }
 
@@ -43,7 +45,10 @@ class App extends Component {
   render () {
     return (
       <Provider store={store}>
-        <Index />
+        {/* <Index /> */}
+        <User />
+        <Publish/>
+        <Home/>
       </Provider>
     )
   }

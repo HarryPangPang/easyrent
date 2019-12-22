@@ -10,8 +10,8 @@ import { AtAvatar ,AtIcon} from "taro-ui";
 import "./index.scss";
 
 @connect(
-  ({ counter }) => ({
-    counter
+  ({ userinfo }) => ({
+    userinfo
   }),
   dispatch => ({
     add() {
@@ -50,17 +50,30 @@ class User extends Component {
       <View className="user">
         <View className="user-card">
           <View className=" card1">
+                {/* <open-data type="userAvatarUrl"></open-data> */}
           {/* <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button> */}
-            <AtAvatar
+          
+          <AtAvatar
               circle
               className="user-icon"
               image="https://jdc.jd.com/img/200"
             ></AtAvatar>
-            {/* <open-data type="userAvatarUrl"></open-data> */}
+          <View className="user-infos user-infos-unlogin">
+              <View className="user-name">注册/登录</View>
+              {/* <View className="user-id">uid:3123</View> */}
+            </View>
+            {/* 已登录 */}
+            {/* <AtAvatar
+              circle
+              className="user-icon"
+              image="https://jdc.jd.com/img/200"
+            ></AtAvatar>
             <View className="user-infos">
               <View className="user-name"><open-data type="userNickName"></open-data></View>
               <View className="user-id">uid:3123</View>
-            </View>
+            </View> */}
+
+
             <View className="change-info">
               <AtIcon value='edit' size='20' color='#66CCFF'></AtIcon>
             </View>

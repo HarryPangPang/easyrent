@@ -15,6 +15,7 @@
     .card1{
         display: flex;
         height: 120px;
+        position: relative;
         border-bottom: 1px solid #eee;
         .user-icon{
             margin-right: 20px;
@@ -27,8 +28,10 @@
             margin-top: -20px;
         }
         .change-info{
-            display: inline-flex;
-            justify-content: flex-end;
+            position: absolute;
+            top: 50%;
+            margin-top: -25px;
+            right: 20px;
         }
         .user-too-bar{
             margin-top: 20px;
@@ -61,5 +64,9 @@
     .user-infos{
         margin-left: 20px;
     }
-    
+    .user-infos-unlogin{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }

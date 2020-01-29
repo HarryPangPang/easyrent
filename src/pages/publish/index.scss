@@ -1,0 +1,52 @@
+.card {
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  // box-shadow: #ccc 8px 8px 8px;
+}
+.request-warp {
+  margin-left: 10px;
+  padding: 24px;
+  .request-content {
+    margin-left: 110px;
+    display: inline-block;
+  }
+  
+}
+.more-warp{
+    position: relative;
+    display: flex;
+    padding: 20px 0 20px 0;
+    margin-left: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.right{
+    position: absolute;
+    right: 30px;
+}
+.more-text{
+    margin-right: 115px;
+}
+.img-pick{
+  margin-left: 15px;
+}
+.submit-give{
+ 
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 10px;
+  
+  background-color: #66CCFF;
+  border-radius: 18px;
+  .submit-content{
+    font-size: 30;
+    color: #fff;
+    display: inline;
+  }
+}
+.publish{
+  margin-bottom: 110px;
+}

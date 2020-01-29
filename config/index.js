@@ -25,6 +25,7 @@ const config = {
     }
   },
   defineConstants: {
+    LOCATION_APIKEY:'QBRBZ-SB53X-6CI4R-ZYLNV-PXLKH-X4BC3'
   },
   copy: {
     patterns: [
